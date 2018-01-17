@@ -1,6 +1,7 @@
 let AWS = require('aws-sdk');
-exports.handler = function(event, context, callback) {
+
+exports.handler = function (event, context, callback) {
 
 
-	callback(null,'Successfully executed');
+	callback(null, 'Successfully executed');
 }
